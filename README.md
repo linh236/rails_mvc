@@ -1,24 +1,35 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby version: 3.1.2
 
-Things you may want to cover:
+* Rails version: 7.0.3.1
 
-* Ruby version
+* git clone git@github.com:linh236/rails_mvc.git
+ 
+* rails db:create
 
-* System dependencies
+* rails db:migrate
 
-* Configuration
+* rails s
 
-* Database creation
+// localhost:3000
 
-* Database initialization
+* Sign In page
 
-* How to run the test suite
+![image](https://user-images.githubusercontent.com/40066172/186717888-b1f4df9f-a2f7-4ed4-8c5e-30636aa080ec.png)
 
-* Services (job queues, cache servers, search engines, etc.)
+* Sign Up page
 
-* Deployment instructions
+![image](https://user-images.githubusercontent.com/40066172/186717984-a691604d-9f8d-4062-9afa-8cbcc4ce62e9.png)
 
-* ...
+* Dashboard page
+
+![image](https://user-images.githubusercontent.com/40066172/186718193-d0b14619-4332-4566-a2ec-949387aff077.png)
+
+* Post detail
+
+![image](https://user-images.githubusercontent.com/40066172/186718291-4bfcc934-1c30-4c34-b7d3-e19912820a26.png)
+
+* Edit post
+
+![image](https://user-images.githubusercontent.com/40066172/186718395-93ff256b-c582-4c78-b1e1-4970911eeef8.png)
