@@ -1,0 +1,6 @@
+<%= render "/posts/shared/form"%>
+
+<% @posts.each do |post| %>
+  <%#= render partial:"/posts/shared/post", object: post %>
+  <%= render partial:"/posts/shared/post", locals: {post: post}%>
+<% end %>

@@ -1,0 +1,15 @@
+<h1 class="text-center">Sign In</h1>
+
+<%= form_with model: @user, url: logins_path do |f| %>
+<div>
+  <%= f.label :email, class: 'form-label' %>
+  <%= f.email_field :email, class: 'form-control', placeholder: 'Enter your email' %>
+</div>
+<div>
+  <%= f.label :password, class: 'form-label' %>
+  <%= f.password_field :password, class: 'form-control', placeholder: 'Enter your password'%>
+</div>
+<div class="mt-2 text-center">
+  <%= f.submit "Sign In", class: 'btn btn-primary' %>
+</div>
+<% end %>
